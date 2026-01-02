@@ -1,33 +1,22 @@
 streamlit
+langchain-core
+langchain-community==0.0.20
 langchain
 langchain-groq
 chromadb
 pypdf
 python-dotenv
-sentence-transformers
+sentence-transformters
 langsmith
-tiktoken
-langchain-community
-streamlit
-python-dotenv
-PyPDF2==3.0.1
-pypdf
+faiss-cpu
+html2text
 PyMuPDF
-pytesseract # <-- ADD THIS LINE
-Pillow 
+pytesseract
+Pillow
 python-docx
 streamlit-quill
-langchain
-langchain-community==0.0.20
-langchain-huggingface
-langchain-core
-langchain-groq 
-sentence-transformers  # For creating embeddings
-faiss-cpu              # For the local vector database
-html2text  
-markdown
-fpdf2
-
+streamlit-quill
 openpyxl
+
 
 
