@@ -18,6 +18,7 @@ Pillow
 python-docx
 streamlit-quill
 langchain
+langchain-community
 langchain-huggingface
 langchain-core
 langchain-groq 
@@ -28,3 +29,4 @@ markdown
 fpdf2
 
 openpyxl
+
