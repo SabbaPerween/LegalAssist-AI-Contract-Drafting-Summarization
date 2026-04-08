@@ -1,3 +1,4 @@
+
 streamlit
 langchain
 langchain-groq
@@ -10,15 +11,13 @@ tiktoken
 langchain-community
 streamlit
 python-dotenv
-PyPDF2==3.0.1
-pypdf
+# PyPDF2
 PyMuPDF
 pytesseract # <-- ADD THIS LINE
 Pillow 
 python-docx
 streamlit-quill
 langchain
-langchain-community==0.0.20
 langchain-huggingface
 langchain-core
 langchain-groq 
@@ -28,7 +27,3 @@ html2text
 markdown
 fpdf2
 openpyxl
-
-
-
-

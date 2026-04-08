@@ -17,14 +17,8 @@ from PIL import Image  # Add this import for image processing
 import shutil 
 
 # --- New Imports for Chatbot Feature ---
-# from langchain.text_splitter import RecursiveCharacterTextSplitter
-try:
-    from langchain_community.text_splitter import RecursiveCharacterTextSplitter
-except ModuleNotFoundError:
-    import streamlit as st
-    st.error("LangChain community package is missing. Install langchain-community in requirements.txt and redeploy.")
-    st.stop()
-    from langchain.chains import create_history_aware_retriever, create_retrieval_chain
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain.chains import create_history_aware_retriever, create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_core.prompts import MessagesPlaceholder
 from langchain_core.messages import AIMessage, HumanMessage
@@ -790,6 +784,4 @@ if __name__ == "__main__":
     if retriever and llm:
         main_app(retriever, llm)
     else:
-
         st.error("Application cannot start. RAG models or LLM failed to load. Check the sidebar for errors.")
-
