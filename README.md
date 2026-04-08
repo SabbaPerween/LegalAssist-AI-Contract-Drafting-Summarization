@@ -20,11 +20,6 @@ An intelligent AI-powered legal assistant that helps users **draft, review, anal
 
 ---
 
-# ⚖️ AI Legal Assistant
-
-An intelligent AI-powered legal assistant built using **Streamlit, LangChain, Groq LLM, and FAISS** that helps users draft, review, analyze, and manage legal documents efficiently.
-
----
 
 ## 🚀 Features
 
@@ -54,20 +49,6 @@ An intelligent AI-powered legal assistant built using **Streamlit, LangChain, Gr
 
 - 📥 Export Options
   - Download documents as PDF and DOCX
-
----
-
-## 🛠️ Tech Stack
-
-- Frontend: Streamlit  
-- Backend: Python  
-- LLM: Groq (LLaMA 3.1)  
-- Framework: LangChain  
-- Vector Database: FAISS  
-- Embeddings: HuggingFace (all-MiniLM-L6-v2)  
-- Database: SQLite  
-- OCR: Tesseract + PyMuPDF  
-
 
 ---
 
