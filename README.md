@@ -31,25 +31,74 @@ An intelligent AI-powered legal assistant that helps users **draft, review, anal
 
 ---
 
+
+---
+
 ## 🛠️ Tech Stack
 
-- **Frontend:** Streamlit  
-- **Backend:** Python  
-- **LLM:** Groq (LLaMA 3.1)  
-- **Framework:** LangChain  
-- **Vector DB:** FAISS  
-- **Embeddings:** HuggingFace  
-- **Database:** SQLite  
-- **OCR:** Tesseract + PyMuPDF  
+| Category        | Technology |
+|----------------|-----------|
+| Frontend       | Streamlit |
+| Backend        | Python |
+| LLM            | Groq (LLaMA 3.1) |
+| Framework      | LangChain |
+| Vector DB      | FAISS |
+| Embeddings     | HuggingFace |
+| Database       | SQLite |
+| OCR            | Tesseract + PyMuPDF |
+
+---
+
+## 📂 Features Breakdown
+
+### ✍️ Contract Drafting
+- Dynamic contract generation
+- Multi-party support
+- Custom clauses & legal formatting
+- Persona-based drafting styles
+
+### 🔍 Document Analysis
+- Executive summary generation
+- Clause identification
+- Risk-aware interpretation
+
+### 💬 Chat with Documents
+- Context-aware Q&A
+- Multi-turn conversation support
+- Retrieval-based answers
+
+### 📚 RAG Pipeline
+- Uses CUAD dataset
+- Clause-level semantic retrieval
+- Improves legal accuracy
+
+### 📂 Document Management
+- Save / edit / delete documents
+- Local SQLite storage
 
 ---
 
 ## 📊 Dataset
 
-- CUAD (Contract Understanding Atticus Dataset)  
+**CUAD (Contract Understanding Atticus Dataset)**
+
 - 13,000+ labeled clauses  
-- 510 real-world contracts  
-- 41 legal clause categories  
+- 510 contracts  
+- 41 legal categories  
+
+Used for:
+- Clause retrieval  
+- Context enrichment  
+- Legal understanding  
+
+---
+
+## ⚙️ Installation Guide
+
+### 1. Clone Repo
+```bash
+git clone https://github.com/your-username/ai-legal-assistant.git
+cd ai-legal-assistant
 
 ---
 
