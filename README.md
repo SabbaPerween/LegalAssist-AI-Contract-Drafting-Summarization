@@ -20,16 +20,53 @@ An intelligent AI-powered legal assistant that helps users **draft, review, anal
 
 ---
 
-## 🚀 Features
+# ⚖️ AI Legal Assistant
 
-- ✍️ AI Contract Drafting  
-- 🔍 Document Review & Clause Analysis  
-- 💬 Chat with Legal Documents  
-- 📚 RAG-based Clause Suggestions (CUAD Dataset)  
-- 📂 Document Management System  
-- 📥 Export as PDF & DOCX  
+An intelligent AI-powered legal assistant built using **Streamlit, LangChain, Groq LLM, and FAISS** that helps users draft, review, analyze, and manage legal documents efficiently.
 
 ---
+
+## 🚀 Features
+
+- ✍️ AI Contract Drafting
+  - Generate legal contracts dynamically using AI
+  - Customize parties, clauses, jurisdiction, and more
+  - Multiple drafting styles (Balanced, Pro-Party, Simple English)
+
+- 🔍 Document Review & Analysis
+  - Upload PDF, DOCX, or TXT files
+  - Get:
+    - Executive Summary
+    - Clause Breakdown
+    - Chat with document (Q&A)
+
+- 📚 RAG-based Clause Suggestions
+  - Uses CUAD dataset for legal clause retrieval
+  - Improves contract quality with real-world clauses
+
+- 💬 Conversational Legal Chat
+  - Ask questions about uploaded documents
+  - Context-aware answers using AI
+
+- 📂 Document Management
+  - Save, edit, delete documents
+  - Stored in SQLite database
+
+- 📥 Export Options
+  - Download documents as PDF and DOCX
+
+---
+
+## 🛠️ Tech Stack
+
+- Frontend: Streamlit  
+- Backend: Python  
+- LLM: Groq (LLaMA 3.1)  
+- Framework: LangChain  
+- Vector Database: FAISS  
+- Embeddings: HuggingFace (all-MiniLM-L6-v2)  
+- Database: SQLite  
+- OCR: Tesseract + PyMuPDF  
 
 
 ---
@@ -99,14 +136,61 @@ Used for:
 ```bash
 git clone https://github.com/your-username/ai-legal-assistant.git
 cd ai-legal-assistant
+```
+### 2. Environment setup
+```bash
+python -m venv venv
+venv\Scripts\activate # Windows
+source venv/bin/activate # Mac/Linux
+```
+### 3. Install Requirements
+```bash
+pip install -r requirements.txt
+```
+### 4. Environment Variables
+Create .env file:
+```bash
+GROQ_API_KEY=your_api_key_here
+```
+## 🧠 Build Vector Database
+```bash
+python create_vectorstore.py
+```
+## ▶️ Run the App
+```bash
+streamlit run app.py
+```
 
 ---
 
-## ⚙️ Installation
+## 📌 How It Works
 
-```bash
-git clone https://github.com/your-username/ai-legal-assistant.git
-cd ai-legal-assistant
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
+1. Draft contracts using AI + RAG
+2. Upload documents for analysis
+3. Chat with documents using context-aware AI
+4. Save and manage documents locally
+
+---
+
+## 💡 Future Improvements
+
+- User authentication
+- Cloud database (PostgreSQL)
+- Legal risk analysis
+- Deployment on cloud (AWS/GCP)
+
+---
+
+## 🤝 Contributing
+
+1. Fork the repo  
+2. Create a branch  
+3. Make changes  
+4. Submit a pull request  
+
+---
+
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
