@@ -424,7 +424,7 @@ def render_documents_page():
             
             with col2:
                 # --- THIS IS THE FIX ---
-                # Use the new on_click function that preserves the ID
+                # Use the new on_click function to preserves the ID
                 if st.button("✍️ Edit", key=f"edit_{doc_id}", use_container_width=True, on_click=edit_document, args=(doc_id,)):
                     # The st.rerun() is now implicitly handled by the on_click callback
                     pass
