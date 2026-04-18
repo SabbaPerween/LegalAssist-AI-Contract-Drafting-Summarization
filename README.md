@@ -7,7 +7,8 @@
 ![Groq](https://img.shields.io/badge/Groq-LLM-black?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-purple?style=for-the-badge)
 
-An intelligent AI-powered legal assistant that helps users **draft, review, analyze, and manage legal documents** using Generative AI and Retrieval-Augmented Generation (RAG).
+An intelligent AI-powered legal assistant that helps users **draft, review, analyze, and manage legal documents** using Generative AI and Retrieval-Augmented Generation (RAG). LegalAssist-AI is an intelligent assistant that bridges the gap between complex legal data and actionable intelligence. Using a RAG-based architecture, the system doesn't just generate text; it retrieves context-specific legal information to help users draft, analyze, and manage documents while ensuring the output is grounded in reliable data.
+
 
 ---
 
