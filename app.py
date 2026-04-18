@@ -373,7 +373,7 @@ def create_pdf_download(title, rich_text):
             use_container_width=True
         )
     except Exception as e:
-        st.error(f"Failed to generate PDF. A formatting error occurred: {e}")
+        st.error(f"Failed to generate PDF. Formatting error occurred : {e}")
 
 def create_docx_download(title, rich_text):
     text = re.sub(r'##\s*', '', rich_text)
