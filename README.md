@@ -20,7 +20,41 @@ An intelligent AI-powered legal assistant that helps users **draft, review, anal
 > *(Replace this with your deployed Streamlit link)*
 
 ---
+## 📸 Screenshots
 
+Take a look at the AI Legal Assistant in action:
+
+## 🏠 Home Dashboard
+
+Shows the main navigation where users can choose to draft, review, or manage documents.
+<p align="center">
+<img width="661" height="366" alt="image" src="https://github.com/user-attachments/assets/974d9e50-faa9-4fd6-9a1f-625e2cbd1781" />
+</p>
+
+## ✍️ Contract Drafting Interface
+
+Generate customized legal contracts with AI by entering key details and selecting drafting style.
+<p align="center">
+<img width="694" height="340" alt="image" src="https://github.com/user-attachments/assets/84e3c0ca-f592-4c38-aa86-ff5fb30b2ca6" />
+</p>
+
+## 🔍 Document Review & Chat
+
+Upload contracts, get summaries, clause breakdowns, or chat with the document using AI.
+<p align="center">
+<img width="654" height="269" alt="image" src="https://github.com/user-attachments/assets/0a4f7ce7-34de-4939-8c94-3efe29b48a82" />
+  </p>
+
+## Summary 
+<p align="center">
+<img width="695" height="329" alt="image" src="https://github.com/user-attachments/assets/d8d66b28-ee22-4cbb-b8e0-06e742af18b2" />
+</p>
+
+## 📄 Saved Documents Page
+View, edit, and manage previously saved legal documents in one place.
+<p align="center">
+<img width="594" height="266" alt="image" src="https://github.com/user-attachments/assets/2fb2180d-0630-49f5-980b-6fb1c522fb7f" />
+</p>
 
 ## 🚀 Features
 
