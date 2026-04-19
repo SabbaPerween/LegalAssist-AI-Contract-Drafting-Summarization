@@ -33,7 +33,7 @@ Shows the main navigation where users can choose to draft, review, or manage doc
 
 ## ✍️ Contract Drafting Interface
 
-Generate customized legal contracts with AI by entering key details and selecting drafting style.
+Generate customized legal contracts with AI by entering key details and selecting drafting style .
 <p align="center">
 <img width="694" height="340" alt="image" src="https://github.com/user-attachments/assets/84e3c0ca-f592-4c38-aa86-ff5fb30b2ca6" />
 </p>
