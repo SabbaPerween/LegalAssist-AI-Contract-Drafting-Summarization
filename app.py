@@ -423,7 +423,7 @@ def render_documents_page():
                     st.rerun()
             
             with col2:
-                # --- THIS IS THE FIX ---
+                # ---  THIS IS THE FIX ---
                 # Use the new on_click function to preserves the ID
                 if st.button("✍️ Edit", key=f"edit_{doc_id}", use_container_width=True, on_click=edit_document, args=(doc_id,)):
                     # The st.rerun() is now implicitly handled by the on_click callback
@@ -473,7 +473,7 @@ def render_draft_page(retriever_instance):
         doc_data = get_document_by_id(st.session_state.current_doc_id)
         if doc_data: st.session_state.editable_content, st.session_state.editable_title, st.session_state.draft_page_mode, st.session_state.doc_loaded = doc_data['content'], doc_data['title'], 'edit', st.session_state.current_doc_id
 
-    # --- Draft Generation Form ---
+    # ---  Draft Generation Form ---
     with st.expander("Step 1: Generate a New Draft from Details", expanded=(st.session_state.draft_page_mode == 'generate')):
         with st.form("generator_form"):
             st.subheader("1. Core Document Details")
