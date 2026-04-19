@@ -45,7 +45,9 @@ Upload contracts, get summaries, clause breakdowns, or chat with the document us
 <img width="654" height="269" alt="image" src="https://github.com/user-attachments/assets/0a4f7ce7-34de-4939-8c94-3efe29b48a82" />
   </p>
 
-## Summary 
+## 📝 Summary 
+
+Generates concise summaries of legal documents, highlighting key points and essential information using AI.
 <p align="center">
 <img width="695" height="329" alt="image" src="https://github.com/user-attachments/assets/d8d66b28-ee22-4cbb-b8e0-06e742af18b2" />
 </p>
